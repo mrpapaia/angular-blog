@@ -1,0 +1,14 @@
+.menu-container {
+  padding: 1rem;
+}
+
+.menu-container > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu-container > ul > li {
+  margin-right: 1rem;
+  list-style: none;
+}

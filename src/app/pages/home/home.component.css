@@ -1,0 +1,16 @@
+
+.articles{
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.article-main{
+  margin-right: 1rem;
+}
+
+.article-main,.articles-others{
+  max-width: 50%;
+}

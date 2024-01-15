@@ -1,0 +1,14 @@
+<app-menu-title></app-menu-title>
+<div class="articles">
+  <div class="article-main">
+    <app-big-card [data]="bigCardData"></app-big-card>
+  </div>
+  <div class="articles-others">
+    <app-small-card
+      *ngFor="
+        let item of smallCardArrayData.slice(1, smallCardArrayData.length)
+      "
+      [data]="item"
+    ></app-small-card>
+  </div>
+</div>
